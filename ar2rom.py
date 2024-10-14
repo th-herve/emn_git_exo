@@ -46,5 +46,8 @@ class Tests(unittest.TestCase):
     def test_21_to_xxi(self):
         self.assertEqual(ar2rom(21), 'xxi')
 
+    def test_50_to_L(self):
+        self.assertEqual(ar2rom(50), 'L')
+
 if __name__ == "__main__":
     unittest.main()
