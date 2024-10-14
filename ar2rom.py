@@ -1,6 +1,7 @@
 import unittest
 
 conversion_map = (
+    ('L', 50),
     ('x', 10),
     ('ix', 9),
     ('v', 5),
